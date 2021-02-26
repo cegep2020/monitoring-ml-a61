@@ -1,7 +1,7 @@
 version: '3'
 services:
   ml_api_test:
-    image: christophergs/ml_api:master
+    image: amor/ml_api:master
     build:
       context: ../
       dockerfile: docker/Dockerfile.test
